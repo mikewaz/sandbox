@@ -3,6 +3,7 @@
 # Создаем исполняемый файл для тестов
 add_executable(Sandbox_Tests
         HM1_1_test.cpp
+        H1_AoSvsSoA_test.cpp
 )
 
 # Линкуем с нашей библиотекой кода и GTest

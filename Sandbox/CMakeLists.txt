@@ -8,6 +8,9 @@ set(CMAKE_CXX_STANDARD 20)
 # Добавьте сюда все ваши .cpp файлы из папки src
 add_library(SandboxCore STATIC
         src/HM1/HM1_1.cpp
+        src/HM1/AoSvsSoA/H1_AoSvsSoA.cpp
+        src/HM1/AoSvsSoA/ParticleAoS.h
+        src/HM1/AoSvsSoA/ParticleSoA.h
 )
 
 # Указываем, где лежат заголовки, чтобы их видели и main, и тесты
